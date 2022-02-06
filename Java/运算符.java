@@ -18,6 +18,7 @@ public class 运算符
         k ^= j;
         j ^= k;
         k ^= j;
+
         System.out.println(j+" "+k);
     }
     

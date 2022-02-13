@@ -16,6 +16,7 @@
 int main(void) {
     /* 在标准输出中打印 "Hello, world!" */
     printf("你好\n");
+    puts("C语言");
     return EXIT_SUCCESS;
 }
 

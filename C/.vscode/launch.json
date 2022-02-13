@@ -7,7 +7,7 @@
       "environment": [],
       "externalConsole": false,
       "internalConsoleOptions": "neverOpen",
-      "miDebuggerPath": "T:\\VS Code\\MinGW_11\\bin\\gdb.exe",
+      "miDebuggerPath": "T:\\MinGW_11\\bin\\gdb.exe",
       "name": "gcc single file debug",
       "preLaunchTask": "check ascii",
       "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",

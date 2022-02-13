@@ -1,8 +1,8 @@
 {
   "configurations": [
     {
-      "cStandard": "gnu18",
-      "compilerPath": "T:\\VS Code\\MinGW_11\\bin\\gcc.exe",
+      "cStandard": "gnu17",
+      "compilerPath": "T:\\MinGW_11\\bin\\gcc.exe",
       "includePath": [
         "${workspaceFolder}/**"
       ],

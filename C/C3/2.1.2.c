@@ -6,10 +6,14 @@
 //主程序
 void main()
 {
+    void Test0();
+    void Test1();
+    void Test2();
+    void Test3();
     // Test0();
     // Test1();
-    // Test2();
-    Test3();
+    Test2();
+    // Test3();
     //return 0;
 }
 void Test0()
@@ -34,8 +38,8 @@ void Test1()
     unsigned short us = -1; // 65535
     unsigned int ui = -1;   // 4294967295
     unsigned long ul = -1l; // 4294967295
-    printf("%u %u %u\n%u %u %u\n", s, i, l, us, ui, ul);
-    printf("%d %d %d\n%d %d %d\n", s, i, l, us, ui, ul);
+    printf("%hu %u %u\n%hu %u %u\n", s, i, l, us, ui, ul);
+    printf("%hd %d %d\n%hd %d %d\n", s, i, l, us, ui, ul);
 }
 void Test2()
 {
@@ -47,13 +51,15 @@ void Test2()
     {
         s--;
         us++;
-        printf("%u %u\n", s, us);
+        printf("%hi %hu\n", s, us);
         //很奇怪, 使用u来输出short时范围自动扩大了?
+        //输出短型时加h, 否则当作int来输出
     }
 }
 void Test3()
 {
     //不同进制的赋值
+    //十进制 Decimalism
     int i = 0123;
     int i1 = 0x123;
     int i2 = 0b0101;

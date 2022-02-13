@@ -8,12 +8,8 @@ void main()
 {
     int x, y, z, w;
     unsigned int k;
-    float c = 1.1;
-    int i = 10;
-    
     x = 10; y = -20; k = 30;
     z = x + k; w = y + k;
-    printf("%f\n", i + c);
     printf("x + y = %d\ny + d = %d\n", z, w);
     //return 0;
 }

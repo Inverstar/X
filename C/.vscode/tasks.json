@@ -1,7 +1,7 @@
 {
   "options": {
     "env": {
-      "Path": "T:\\VS Code\\MinGW_11\\bin;${env:Path}"
+      "Path": "T:\\MinGW_11\\bin;${env:Path}"
     },
     "shell": {
       "args": [
@@ -13,14 +13,14 @@
   "tasks": [
     {
       "args": [
-        "-std=gnu18",
+        "-std=gnu17",
         "-fexec-charset=UTF-8",
         "-g",
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
-      "command": "T:\\VS Code\\MinGW_11\\bin\\gcc.exe",
+      "command": "T:\\MinGW_11\\bin\\gcc.exe",
       "group": {
         "isDefault": true,
         "kind": "build"
@@ -43,7 +43,7 @@
         "ByPass",
         "-NoProfile",
         "-File",
-        "T:\\VS Code\\MinGW_11\\bin\\check-ascii.ps1",
+        "T:\\MinGW_11\\bin\\check-ascii.ps1",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
       "command": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",

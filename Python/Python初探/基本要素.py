@@ -1,9 +1,7 @@
-from re import A
-
-
 a = 12 #变量与注释
+k = 12.2E3 #支持科学记数法
 b = a
-print( a + b )
+print( k )
 '''
 大小字母或下划线开头
 无空格, 长度无限

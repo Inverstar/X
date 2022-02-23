@@ -1,0 +1,18 @@
+# 字符串编码在内存中是unicode
+print(ord('a'))
+
+x = "Hello {0} {1:10},you get ${2:0.4f}"\
+.format("Mr.","Jack",3.2)
+print(x)
+x = "Hello {0} {1:^10},you get ${2:0.4f}"\
+.format("Mr.","Jack",3.2)
+print(x)
+"""
+    format()函数的语法规则
+    {序号:对齐符 宽度.精度 类型}
+    宽度: 最小宽度, 不足补空格
+    对齐符: >右对齐
+            <左对齐 默认
+            ^居中
+
+"""

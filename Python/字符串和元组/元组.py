@@ -4,10 +4,9 @@
     不可赋值元素
     不可修改顺序
 """
-from re import X
 
-
-t = 123,333,87
+t = 1,2,1
+print(t)
 # t 是元组 tuple
 u = t,1,2,3
 print(t,u)

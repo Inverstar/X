@@ -1,7 +1,14 @@
 import re
+"""
+士大夫
+"""
 # 使用多个分隔串进行分割
 a = 'long*long-ago,a beautiful0girl@chang e'
-print(re.split('\*|-|,| |0|@',a))
+a = '大福大|范德萨|的'
+# a = re.split(' (?=[\u4e00-\u9fa5])|.',a)
+a = re.split('\.',a)
+print(a)
+# print(re.split('\\|/|.|//',a)[0])
 # 为什么*之前要加\?
 s = '12...34..56...a'
 x = '..'

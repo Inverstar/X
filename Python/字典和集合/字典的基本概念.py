@@ -15,6 +15,7 @@ print(d)
 print(2 in d) # in判断键是否存在
 
 d[1] = print(d.get(1,-1))
+print(d.get(1))
 # get(键, 值), 返回键对应的值,没有返回值
 for i in d :
     print(i, d[i])
@@ -35,3 +36,10 @@ print(d)
 
 d = dict(n=12,a=11,c=11)
 print(d)
+
+dict1 = {1:3,2:4}
+print(dict1.setdefault(3))
+print(dict1)
+k = list(dict1.values())
+print(k[0])
+

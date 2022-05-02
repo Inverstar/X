@@ -1,5 +1,5 @@
 #给定一个字符，用它构造一个对角线长5个字符，倾斜放置的菱形。
-#789d2e4b046d5c62409aa599bcf78ec666f223deb52260aa65156c2770945c17
+#fa6b26ac6edbcbf6a7b1902d8ab3fa1f518ebe8db7411ccce4aee9e8d8c16302
 a = input()
 print(" ",a)
 print(" "+3*a)

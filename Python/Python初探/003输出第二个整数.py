@@ -1,5 +1,5 @@
 #输入三个整数,输出第二个
-#40e0f91501905015a226e5e3f8a44b638f780cc685dd74cf143a4f6bdd9b78ee
+#582e47a21065283c05818ebfea5fae60908785d99357f27cf1d29a45316a6f09
 a = input()
 a = a.split()
 print(a[1])

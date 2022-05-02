@@ -1,12 +1,13 @@
 #bool
 a = 4
 print(2<a<6<8)
+print(1<2<a)
 print(2<a==4<6)
 print(2<a>5)
 print(1==True)
 print(0==False)
 print(-1==False)
-
+print()
 #关系运算符也能比较字符串, 按字典序, 小写大于大写
 print('a'>'A')
 

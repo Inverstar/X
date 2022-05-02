@@ -1,5 +1,5 @@
 #编写程序，计算下列分段函数y=f(x)的值。
-#cafa7271f47cb745075353ed2d0cdf99bb5855a22711742a1eb3bf1b89afad1b
+#b879aa0de10d2be27e3b34b2f3f33fc38c6cc306e0c67d0cf48c0ae35f67483b
 x = float(input())
 if 0 <= x < 5:
     y=-x+2.5

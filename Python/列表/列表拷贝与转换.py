@@ -15,6 +15,8 @@ print(b)
 
 # 互转
 a=list("hello")
+a = []
+a = "".join(a)
 print(a)
 print(''.join(a))
 a = tuple('heoo')

@@ -12,5 +12,9 @@ print( k )
 a, b = "he", 12
 print(a,b)
 a,b = b,a 
-a = b = c = 10 #居然允许连续赋值
+a = b = c = [] #居然允许连续赋值
+print(id(a),id(b))
+b.append(1)
+print(a,b,id(b),c)
+print(id(1))
 #程序顶格书写!

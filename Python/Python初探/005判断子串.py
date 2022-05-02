@@ -1,5 +1,5 @@
 #输入两行字符串，要求判断第一行 字符串是不是第二行的子串
-#68dcceed48d032fb2ad8d0e5dc77187b27a748f32b75f6f88047395e8a417ee4
+#c38c0ad58b71f5561ff9601c6cf1c4dd1b15809ba4b63c8ac1496e9d9e1cf0a2
 a = input()
 b = input()
 if a in b:

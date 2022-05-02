@@ -1,5 +1,5 @@
 #对于多项式f(x) = ax3 + bx2 + cx + d 和给定的a, b, c, d, x，计算f(x)的值。
-#4d09b84fea0488a6ba358f229146773f4b9d78265d3ae5a3b633b25c5e8864ef
+#5b8d34c3d46a880e7dea0438b3ba722025b5deacb3453b829aec8767a2348e57
 f = input().split()
 x = eval(f[0])
 a = eval(f[1])

@@ -1,8 +1,13 @@
 d = {1:89,2:11}
+i = 89
+if i in d:
+    print(i,d)
 for i in d.keys():
     print(i)
+print(d.keys())
 for i in d.values():
     print(i)
+print(d.values)
 for i in d.items():
     print(i)
 for i,j in d.items():

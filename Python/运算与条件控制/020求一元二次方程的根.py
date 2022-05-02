@@ -1,5 +1,5 @@
 #利用公式x1 = (-b + sqrt(b*b-4*a*c))/(2*a), x2 = (-b - sqrt(b*b-4*a*c))/(2*a)求一元二次方程ax2+ bx + c =0的根，其中a不等于0。
-#cb07dc6e5e4869ed0704a2a2b03d282944b0e10cb2ee907cb3c5c74752d8e4af
+#6f4fe53677cafd9d51ad0391fe2d87307af3e0aaa9a6a6a53f038f4cd76a36ee
 import math
 s = input().split()
 a = float(s[0])

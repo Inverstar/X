@@ -1,5 +1,9 @@
 #bool
+#python支持连续比较，但是不建议这样使用。。。
+# chr() ord()
+# 算术>关系>逻辑
 a = 4
+print()
 print(2<a<6<8)
 print(1<2<a)
 print(2<a==4<6)

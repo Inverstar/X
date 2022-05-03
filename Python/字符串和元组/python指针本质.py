@@ -3,6 +3,7 @@ y = int
 b = isinstance(x,y)
 #   判断x是不是类型y
 print(b)
+print(id(y),id(int))
 
 c = (1,2,)
 # 圆括号括起来的就叫元组tuple

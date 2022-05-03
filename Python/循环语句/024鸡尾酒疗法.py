@@ -1,5 +1,5 @@
 #鸡尾酒疗法
-#5df9ac201435cd5937bb6b789fbc5fbc4ac5ac49d1f0e89a03c7addd953e4598
+#ae8092b8c05be0fe13fff613a51db1a81cc502e6c51440c7d0993cb1ffec12f3
 n = int(input()) - 1
 s = input().split()
 s = eval(s[1]+'/'+s[0])

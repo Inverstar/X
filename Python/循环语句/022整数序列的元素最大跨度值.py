@@ -1,5 +1,5 @@
 #给定一个长度为n的非负整数序列，请计算序列的最大跨度值（最大跨度值 = 最大值减去最小值）。
-#b7f6cac73d047706327ad06b8bd97dd34a6f71b8c114927449cc222f5e0bd243
+#b0da7057882ccc580b25849f3a4956e6e0aa282262a095d5153829d54920a8a0
 n = input()
 s = input().split()
 maxV = minV = int(s[0])

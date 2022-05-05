@@ -1,6 +1,6 @@
 /* VS Code C/C++ 测试代码 "Hello World" */
 /* 由 VSCodeConfigHelper v3.1.4 生成 */
-
+//修改终端显示编码：chcp 65001
 /* 您可以在当前的文件夹（工作文件夹）下编写代码。 */
 
 /* 按下 Ctrl + F5 编译运行。 */

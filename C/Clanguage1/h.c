@@ -6,7 +6,7 @@
  */
 int main(void) {
     /* 在标准输出中打印 "Hello, world!" */
-    printf("1三幅度爱哦");
+    printf("1");
     printf("Hello, world!\n");
     printf("山色有无中");
     return EXIT_SUCCESS;

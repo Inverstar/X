@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "MIMode": "gdb",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "internalConsoleOptions": "neverOpen",
+      "miDebuggerPath": "T:\\MinGW_11\\bin\\gdb.exe",
+      "name": "gcc single file debug",
+      "preLaunchTask": "check ascii",
+      "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+      "request": "launch",
+      "setupCommands": [
+        {
+          "ignoreFailures": true,
+          "text": "-enable-pretty-printing"
+        }
+      ],
+      "stopAtEntry": false,
+      "type": "cppdbg"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "t:/X/C/C_Modern_Approach_2/Chapter2_CBasicConcepts",
+      "environment": [],
+      "program": "t:/X/C/C_Modern_Approach_2/Chapter2_CBasicConcepts/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "T:/MinGW_11/bin/gdb.exe",
+      "console": "integratedTerminal",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ],
+  "version": "0.2.0"
+}

@@ -20,6 +20,27 @@
       ],
       "stopAtEntry": false,
       "type": "cppdbg"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "T:/MinGW_11/bin/gdb.exe",
+      "console": "integratedTerminal",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ],
   "version": "0.2.0"

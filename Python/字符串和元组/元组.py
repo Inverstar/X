@@ -4,6 +4,7 @@
     不可赋值元素
     不可修改顺序
 """
+# 元组：指针或常量，常量不可变，指针指向可变
 
 t = 1,2,1
 print(t)
@@ -34,7 +35,7 @@ print(tuple1[::-1])
 
 #元组之间可以连接组合
 tup1,tup2 = (12,22),('ad','nv')
-# 居然正常赋值了,,,没有把后面看作为一个元组
+# 居然正常赋值了,,,没有看作为一个元组
 print(tup1,tup2)
 tup3 = tup1 + tup2
 print(tup3)
@@ -46,7 +47,7 @@ print(x)
 for i in x:
     print(i,end = '')
 b = x
-print(b is x)
+print('\n',b is x)
 x += (100,)
 print(x is b)
 

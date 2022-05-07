@@ -14,7 +14,8 @@
 /**
  * 程序执行的入口点。
  */
-int main(void) {
+int main(void) 
+{
     /* 在标准输出中打印 "Hello, world!" */
     printf("1三幅度爱哦");
     printf("Hello, world!\n");

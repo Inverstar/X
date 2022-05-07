@@ -8,7 +8,7 @@ for x in range(n):
         s[0].find(s[1],a)
         if s[0].find(s[1],a) == -1:
             if x == 0:
-                print('no')
+                print('no',end=' ')
             break
         else:
             print(s[0].find(s[1],a),end=' ')

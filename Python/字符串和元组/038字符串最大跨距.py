@@ -6,4 +6,8 @@ if S1 not in S or S2 not in S:
 else:
     z = S.find(S1)
     y = S.rfind(S2)
-    print(y-z-len(S1))
+    k = y-z-len(S1)
+    if k>=0:
+        print(k)
+    else:
+        print(-1)

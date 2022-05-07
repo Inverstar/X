@@ -12,7 +12,8 @@ using namespace std;
 /**
  * 程序执行的入口点。
  */
-int main() {
+int main() 
+{
     // 在标准输出中打印 "Hello, world!"
     std::cout << "Hello, world!" << std::endl;
     cout<<"chcp 65001\n中文乱码解决"<<endl;

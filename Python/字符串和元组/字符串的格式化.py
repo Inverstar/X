@@ -1,6 +1,9 @@
 # 字符串编码在内存中是unicode
 print(ord('a'))
-
+print(chr(22900))
+print("%d"%1,15)
+a = 1 
+print(f"{a}")
 x = "Hello {0} {1:10},you get ${2:0.4f}"\
 .format("Mr.","Jack",3.2)
 print(x)

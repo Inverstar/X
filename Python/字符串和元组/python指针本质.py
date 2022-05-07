@@ -2,10 +2,12 @@ x = 123
 y = int
 b = isinstance(x,y)
 #   判断x是不是类型y
+#   类型判断函数
 print(b)
 print(id(y),id(int))
 
 c = (1,2,)
+c = (1,2)
 # 圆括号括起来的就叫元组tuple
 print(len(c))
 
@@ -26,3 +28,4 @@ b = [1,2,3,4]
 print(a[0] is b[0])
 print(a is b)
 # python中常量数据唯一, 所以指向1的指针所指向的地址相同
+print(id(a),id(b))

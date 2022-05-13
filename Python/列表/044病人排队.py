@@ -2,15 +2,12 @@
 #1. 老年人（年龄 >= 60岁）比非老年人优先看病。 
 #2. 老年人按年龄从大到小的顺序看病，年龄相同的按登记的先后顺序排序。 
 #3. 非老年人按登记的先后顺序看病。
-n = int(input())
-a = []
-def s(x):
-    if x[1] >= '60':
-        return (-1,-int(x[1]))
-    else:
-        return (1,0)
+n=int(input())
+patient=[input().split() for i in range(n)]
 for i in range(n):
-    a.append(tuple(input().split()))
-a.sort(key = s)
+    patient[i][1]=int(patient[i][1])
+def f(x):
+    return -int(x[1]>=60)*x[1]
+patient.sort(key=f)
 for i in range(n):
-    print(a[i][0])
+    print(patient[i][0])

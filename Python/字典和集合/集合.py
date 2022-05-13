@@ -21,6 +21,7 @@ print(c)
 # 字典转集合只取键
 
 a.add(3)
+# a.add([3])
 # 向集合a中添加3, 若有则不添加
 
 a.clear()
@@ -36,19 +37,21 @@ a.update([1,2,3,4])
 a.update((3,4,6))
 a.update({1,6,7,8})
 a.update({5:3,9:0})
+# update 向集合中添加容器内元素
 print(a)
 
 # 集合运算
 a = {1,2,3}
 b = {3,4,5}
 print(3 in a)
-c = a|b
+c = a|b #并集 
+# a.update(b)
 print(c)
-c = a&b
+c = a&b #交集
 print(c)
-c = a-b
+c = a-b #差集，在a不在b
 print(c)
-c = a^b
+c = a^b 
 # 求a与b的对称差 (a|b) - (a&b)
 print(c)
 

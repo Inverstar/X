@@ -10,14 +10,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//可以正常使用了，不过每个文件夹下都需要一个build文件夹
+//可以正常使用了，不过每个文件夹下都需要一个 build 文件夹
 /**
  * 程序执行的入口点。
  */
 int main(void) 
 {
     /* 在标准输出中打印 "Hello, world!" */
-    printf("1三幅度爱哦");
+    printf("1 三幅度爱哦");
     printf("Hello, world!\n");
     return EXIT_SUCCESS;
 }

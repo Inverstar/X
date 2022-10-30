@@ -1,15 +1,15 @@
 {
   "configurations": [
     {
-      "cStandard": "${default}",
-      "compilerPath": "gcc",
+      "cStandard": "c17",
+      "compilerPath": "I:/MinGW_11/bin/gcc",
       "includePath": [
         "${workspaceFolder}/**"
       ],
       "intelliSenseMode": "windows-gcc-x64",
       "name": "windows-gcc-x64",
       "compilerArgs": [],
-      "cppStandard": "${default}"
+      "cppStandard": "c++23"
     }
   ],
   "version": 4

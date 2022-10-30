@@ -2,11 +2,11 @@
   "files.associations": {
     "stdio.h": "c"
   },
-  "C_Cpp_Runner.cCompilerPath": "gcc",
-  "C_Cpp_Runner.cppCompilerPath": "T:/MinGW_11/bin/g++.exe",
-  "C_Cpp_Runner.debuggerPath": "T:/MinGW_11/bin/gdb.exe",
-  "C_Cpp_Runner.cStandard": "",
-  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.cCompilerPath": "I:/MinGW_11/bin/gcc",
+  "C_Cpp_Runner.cppCompilerPath": "I:/MinGW_11/bin/g++.exe",
+  "C_Cpp_Runner.debuggerPath": "I:/MinGW_11/bin/gdb.exe",
+  "C_Cpp_Runner.cStandard": "c17",
+  "C_Cpp_Runner.cppStandard": "c++23",
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.warnings": [
     "-Wall",
@@ -30,5 +30,6 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "C_Cpp.errorSquiggles": "Enabled"
+  "C_Cpp.errorSquiggles": "Enabled",
+  "C_Cpp_Runner.useMsvc": false
 }

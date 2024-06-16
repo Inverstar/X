@@ -1,45 +1,47 @@
 {
-  "configurations": [
-    {
-      "MIMode": "gdb",
-      "args": [],
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "internalConsoleOptions": "neverOpen",
-      "miDebuggerPath": "I:\\MinGW_11\\bin\\gdb.exe",
-      "name": "gcc single file debug",
-      "preLaunchTask": "check ascii",
-      "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
-      "request": "launch",
-      "setupCommands": [
+    "configurations": [
         {
-          "ignoreFailures": true,
-          "text": "-enable-pretty-printing"
-        }
-      ],
-      "stopAtEntry": false,
-      "type": "cppdbg"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/Inverstar/Documents/GitHub/X/C",
-      "program": "c:/Users/Inverstar/Documents/GitHub/X/C/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "I:/MinGW_11/bin/gdb.exe",
-      "setupCommands": [
+            "MIMode": "lldb",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "env": {
+                "PATH": "C:\\Night\\IDE\\llvm-mingw-20230614-ucrt-x86_64\\bin;${env:PATH}"
+            },
+            "environment": [],
+            "miDebuggerPath": "C:\\Night\\IDE\\llvm-mingw-20230614-ucrt-x86_64\\bin\\lldb.exe",
+            "name": "single file debug",
+            "preLaunchTask": "single file build",
+            "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+            "request": "launch",
+            "stopAtEntry": false,
+            "type": "lldb"
+        },
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "C/C++: clang.exe 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "miDebuggerPath": "C:\\Night\\IDE\\llvm-mingw-20230614-ucrt-x86_64\\bin\\lldb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": false
+                }
+            ],
+            "preLaunchTask": "C/C++: clang.exe 生成活动文件"
         }
-      ]
-    }
-  ],
-  "version": "0.2.0"
+    ],
+    "version": "0.2.0"
 }

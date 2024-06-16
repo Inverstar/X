@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "cStandard": "c17",
+      "compilerPath": "C:\\Night\\IDE\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33923\\bin\\HostX64\\x64\\cl.exe",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "intelliSenseMode": "windows-msvc-x64",
+      "name": "windows-msvc-x64",
+      "cppStandard": "c++23"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,72 @@
+{
+  "options": {
+    "shell": {
+      "args": [
+        "/S",
+        "/C",
+        "\"\"C:\\Night\\IDE\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe\\..\\..\\..\\..\\..\\..\\..\\Auxiliary\\Build\\vcvars64.bat\"",
+        "&&"
+      ],
+      "executable": "C:\\Windows\\System32\\cmd.exe"
+    }
+  },
+  "tasks": [
+    {
+      "args": [
+        "/Zi",
+        "${file}",
+        "/Fe:",
+        "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+        "/Fo:",
+        "${fileDirname}\\build\\",
+        "/Fd:",
+        "${fileDirname}\\build\\",
+        "/EHsc",
+        "/source-charset:utf-8",
+        "/std:c17",
+        "/execution-charset:gbk",
+        {
+          "quoting": "escape",
+          "value": "\""
+        }
+      ],
+      "command": "cl.exe",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "single file build",
+      "presentation": {
+        "clear": true,
+        "echo": false,
+        "focus": false,
+        "panel": "shared",
+        "reveal": "silent",
+        "showReuseMessage": false
+      },
+      "problemMatcher": "$msCompile",
+      "type": "shell"
+    }, 
+    {
+      "args": [],
+      "command": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+      "dependsOn": "single file build",
+      "label": "run and pause",
+      "options": {
+        "cwd": "${fileDirname}",
+        "env": {}
+      },
+      "presentation": {
+        "clear": true,
+        "echo": false,
+        "focus": false,
+        "panel": "shared",
+        "reveal": "never",
+        "showReuseMessage": false
+      },
+      "problemMatcher": [],
+      "type": "pause-console"
+    }
+  ],
+  "version": "2.0.0"
+}

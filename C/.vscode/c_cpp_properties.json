@@ -8,7 +8,6 @@
       ],
       "intelliSenseMode": "windows-gcc-x64",
       "name": "windows-gcc-x64",
-      "compilerArgs": [],
       "cppStandard": "c++23"
     }
   ],

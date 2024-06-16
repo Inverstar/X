@@ -1,5 +1,5 @@
 -- add_rules("mode.debug", "mode.release")
-add_rules("mode.debug", "ReBuild")
+add_rules("mode.debug", "Print_Neatly")
 -- 设置target默认不构建
 set_default(false)
 -- 指定使用MSVC编译器
@@ -10,16 +10,16 @@ add_cxflags("/source-charset:utf-8", "/execution-charset:gbk")
 --     -- add_cxflags("/utf-8")
 --     add_cxflags("/source-charset:utf-8", "/execution-charset:gbk")
 -- end
-rule("ReBuild")
+rule("Print_Neatly")
     before_run(function (target)
         print("======================================================================")
         print("\x1b[32m".."[Before Run ReBuild]: Star!")
         print("\x1b[32m".."[  0%]: ".."\x1b[35m"..target:name())
         -- 重建当前target
-        local ReBuild_Result = os.iorun("xmake -r "..target:name())
+        -- local ReBuild_Result = os.iorun("xmake -r "..target:name())
         -- 重建所有默认target
         -- local ReBuild_Result = os.iorun("xmake -r")
-        printf(ReBuild_Result)
+        -- printf(ReBuild_Result)
         print("\x1b[32m".."[Before Run ReBuild]: Over!")
         print("\x1b[0m".."======================================================================")
         print("\x1b[36m".."===================================[".."\x1b[35m"..target:name().."\x1b[36m"..": Target Star!]===================================")

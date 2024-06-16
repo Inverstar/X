@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int test(void);
+
 int main() {
     printf("Main Start!\n");
     printf("test start!\n");

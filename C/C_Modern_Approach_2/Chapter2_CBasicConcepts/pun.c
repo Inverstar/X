@@ -1,3 +1,6 @@
+// Name: pun.c
+// Purpose: Prints a bad pun.
+// Author: K. N. King
 #include <stdio.h>
 int pun(void)
 {

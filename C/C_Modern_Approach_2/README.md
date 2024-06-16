@@ -2,6 +2,8 @@
 
 http://knking.com/books/c2/index.html
 
+https://exl.ptpress.cn:8442/ex/l/609033ea 题目答案
+
  C 语言程序设计现代方法第二版·修订版
 
  图灵社区
@@ -14,4 +16,4 @@ http://knking.com/books/c2/index.html
 
  使用Xmake重建环境，拿回书重启C现代编程之路  
 
- 
+ T2_Questions 是第二章编程题答案  

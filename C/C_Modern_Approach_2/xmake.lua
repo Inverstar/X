@@ -31,12 +31,13 @@ rule("ReBuild")
 target("Chapter2_CBasicConcepts")
     set_kind("binary")
     add_files("Chapter2_CBasicConcepts/*.c")
+    add_files("Chapter2_CBasicConcepts/T2_Questions/*.c")
     set_default(true)
 
 target("Test_Single")
     set_kind("binary")
     add_files("*.c")
-    set_default(true)
+    -- set_default(true)
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io

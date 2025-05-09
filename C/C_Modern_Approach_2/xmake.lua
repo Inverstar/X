@@ -1,5 +1,5 @@
 -- add_rules("mode.debug", "mode.release")
-add_rules("mode.debug", "Print_Neatly")
+add_rules("mode.debug", "Print_Neatly","mode.release")
 -- 设置target默认不构建
 set_default(false)
 -- 指定使用MSVC编译器

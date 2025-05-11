@@ -1,8 +1,14 @@
-# C_Modern_2
+# C_Modern_APPROACH_2
 
 http://knking.com/books/c2/index.html
 
+https://www.ituring.com.cn/book/2947
+
 https://exl.ptpress.cn:8442/ex/l/609033ea 题目答案
+
+https://github.com/apachecn/ituring-cs-book
+
+https://github.com/mhamdyx/C-programming-A-Modern-Approach-2nd-ed-Solutions
 
  C 语言程序设计现代方法第二版·修订版
 

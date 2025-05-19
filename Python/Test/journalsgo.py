@@ -7,6 +7,7 @@ from lunardate import LunarDate  # 使用 lunardate 库
 # - 
 # - [[YYYY-MM-DD dddd]]
 # - [[YYYY-MM-DD dddd]]
+#journalsgo.py
 import os
 from datetime import datetime, timedelta
 

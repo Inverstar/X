@@ -37,15 +37,11 @@ def update_file_content(file_path):
         return
 
     # 生成周一到周日的日期和星期
-    days = []
-    for i in range(7):
-        current_date = start_date + timedelta(days=i)
-        day_of_week = current_date.strftime("%A")  # 星期用英文
-        days.append(f"{current_date.strftime('%m%d')} {day_of_week}")
+    days = [(start_date + timedelta(days=i)).strftime("%Y-%m-%d %A") for i in range(7)]
 
     # 替换占位符
     for i in range(14):
-        placeholder = "MMDD EEEE"
+        placeholder = "YYYY-MM-DD dddd"
         replacement = days[i // 2]  # 每两个占位符对应一个日期和星期
         content = content.replace(placeholder, replacement, 1)
 

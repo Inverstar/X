@@ -66,6 +66,7 @@ if __name__ == "__main__":
     # 指定文件所在的目录
     target_directory = "C:\\Users\\lnq12\\Documents\\Logseq\\journals\\2025\\08-August\\第33周"  # 替换为你的文件夹路径
     batch_process_files(target_directory)
+    
 # # 农历数字转中文
 # def format_lunar_date(lunar_date, solar_date):
 #     # chinese_months = ["正月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "冬月", "腊月"]

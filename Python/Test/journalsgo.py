@@ -64,7 +64,7 @@ def batch_process_files(directory):
 
 if __name__ == "__main__":
     # 指定文件所在的目录
-    target_directory = "C:\\Users\\lnq12\\Documents\\Logseq\\journals\\2025\\08-August\\第33周"  # 替换为你的文件夹路径
+    target_directory = "C:\\Users\\lnq12\\Documents\\obsidian\\journals\\2025\\08-August\\第34周"  # 替换为你的文件夹路径
     batch_process_files(target_directory)
     
 # # 农历数字转中文

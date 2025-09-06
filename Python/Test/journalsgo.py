@@ -58,13 +58,13 @@ def process_file(filepath):
 def batch_process_files(directory):
     # 遍历目录中的所有文件
     for filename in os.listdir(directory):
-        if filename.endswith(".md") and filename.startswith("2025-08"):
+        if filename.endswith(".md") and filename.startswith("2025-"):
             filepath = os.path.join(directory, filename)
             process_file(filepath)
 
 if __name__ == "__main__":
     # 指定文件所在的目录
-    target_directory = "C:\\Users\\lnq12\\Documents\\obsidian\\journals\\2025\\08-August\\第34周"  # 替换为你的文件夹路径
+    target_directory = "C:\\Users\\lnq12\\Documents\\obsidian\\journals\\2025\\10-October\\第41周"  # 替换为你的文件夹路径
     batch_process_files(target_directory)
     
 # # 农历数字转中文

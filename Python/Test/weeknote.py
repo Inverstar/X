@@ -77,7 +77,7 @@ def batch_process_files(directory):
 
 if __name__ == "__main__":
     # 指定文件所在的目录
-    target_directory = "C:\\Users\\lnq12\\Documents\\Logseq\\weeks\\2025"  # 替换为你的文件夹路径
+    target_directory = "C:\\Users\\lnq12\\Documents\\obsidian\\weeks\\2025"  # 替换为你的文件夹路径
     batch_process_files(target_directory)
 
 # if __name__ == "__main__":
